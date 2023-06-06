@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+        
+    <main>
+        <section class="presentacion">
+            <div class="titulo-icono">
+                <h1>ENCRIPTADOR DE TEXTO</h1>
+            <figure class="imagen">
+                <img src="./Css/img/one-removebg-preview.png" alt="imagen-oracle+alura">
+            </figure>
+            </div>
+        </section>
+        
+        <section class="seccion-encriptacion">
+            <div class="contenedor1">
+                <figure class="logo">
+                    <img src="./Css/img/dibk1ba07iflqhldupuz.avif" alt="alura">
+                </figure>
+                <div class="texto-usuario">
+                    <textarea cols="10" rows="80" name="Texto" id="area-texto" class="ingrese-texto" placeholder="Por Favor Ingrese Su Texto Aquí" ></textarea>
+                </div>
+                <button id="boton-encriptar" class ="boton1">Encriptar</button>
+                <button id="boton-desencriptar" class ="boton2">Descencriptar</button>
+            </div>
+    </section>
+    <section class="seccion-resultado">
+        <div class="contenedor2">
+            <div class="sin-resultados">
+                <figure class="envoltorio-imagen">
+                    <img src="./Css/img/Muñeco.png" alt="not-found">
+                </figure>
+                <h2 class="mensaje-imagen">NO HAY MENSAJES AUN .....</h2>
+                    <textarea disabled id="parrafo-encriptado" class="texto-encriptado" ></textarea>
+            </div>
+            <button class="copiar">Copiar</button>
+        </div>
+    </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
